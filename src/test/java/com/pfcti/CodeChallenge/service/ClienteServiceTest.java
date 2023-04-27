@@ -19,7 +19,7 @@ class ClienteServiceTest {
         List<ClienteDto> clientesDto = clienteService.obtenerClientes();
         clienteService
                 .obtenerClientes()
-                .forEach(cliente -> System.out.println(">>>>> CLIENTE EXISTENTE: " + cliente.getApellidos()));
+                .forEach(cliente -> System.out.println(">>>>> CLIENTE EXISTENTE: " + cliente.getNombres() +" " + cliente.getApellidos()));
 
         assertEquals(1,1);
     }
