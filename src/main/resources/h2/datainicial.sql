@@ -1,0 +1,3 @@
+INSERT INTO Cliente2 (identificacion, nombres, apellidos, paisResidencia, paisNacimiento,direccionDomicilio,telefonoContacto,estado) VALUES ('112660478', 'Roger', 'araya', 'CR','CR','Aserri','88606902',true);
+INSERT INTO Cliente (identificacion, nombres, apellidos, paisResidencia, paisNacimiento,direccionDomicilio,telefonoContacto,estado) VALUES ('112460584', 'Roger', 'Araya', 'CR','CR','Aserri','70469372',true);
+INSERT INTO Cliente (identificacion, nombres, apellidos, paisResidencia, paisNacimiento,direccionDomicilio,telefonoContacto,estado) VALUES ('123680493', 'Damian', 'Araya', 'CR','CR','Aserri','88606902',true);
